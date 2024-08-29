@@ -1,4 +1,29 @@
-h1{
+body {
+  background-color: gray;
+}
+
+h1 {
   border-color: #d3e644;
   border-style: dashed;
+}
+
+li {
+  text-shadow: black 1px 1px 1px;
+  color: red;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  font-family: 'Lucida Handwriting', sans-serif;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
 }
